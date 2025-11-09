@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Додаткові 3D-моделі</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #121212;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      color: #00d9ff;
+      margin: 40px 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #333;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #00d9ff;
+    }
+
+    a.btn {
+      display: inline-block;
+      margin: 30px auto;
+      background-color: #00d9ff;
+      color: #000;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a.btn:hover {
+      background-color: #00ffaa;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ще більше наших 3D-моделей</h1>
+
+  <div class="gallery">
+    <img src="images/model4.jpg" alt="3D модель 4">
+    <img src="images/model5.jpg" alt="3D модель 5">
+    <img src="images/model6.jpg" alt="3D модель 6">
+  </div>
+
+  <a class="btn" href="index.html">⬅ Назад</a>
+
+</body>
+</html>

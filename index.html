@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Робимо на замовлення 3D-моделі</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      border-bottom: 2px solid #333;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #00d9ff;
+    }
+
+    .contacts {
+      text-align: right;
+      font-size: 0.9em;
+      line-height: 1.5em;
+    }
+
+    .contacts span {
+      display: block;
+    }
+
+    .contacts a {
+      color: #00d9ff;
+      text-decoration: none;
+    }
+
+    .contacts a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    main h1 {
+      font-size: 2em;
+      color: #00d9ff;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #333;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #00d9ff;
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      border-top: 2px solid #333;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.95em;
+      color: #ccc;
+    }
+
+    .thanks {
+      font-size: 1.2em;
+      color: #00d9ff;
+      margin-top: 10px;
+    }
+
+    .order {
+      margin-top: 15px;
+      font-size: 1em;
+      color: #00ffaa;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      background-color: #00d9ff;
+      color: #000;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #00ffaa;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Робимо на замовлення 3D-моделі</div>
+    <div class="contacts">
+      <span>Телефон:+380954150119</span>
+      <span>Телеграм: <a href="#">@Haroshk</a></span>
+      <span>Для замовлення пишіть сюди</span>
+    </div>
+  </header>
+
+  <main>
+    <h1>Наші 3D-моделі</h1>
+    <div class="gallery">
+      <img src="images/model1.jpg" alt="3D модель 1">
+      <img src="images/model2.jpg" alt="3D модель 2">
+      <img src="images/model3.jpg" alt="3D модель 3">
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Model 3D  
+    <div class="thanks">Дякую за перегляд!</div>
+    <div class="order">Якщо хочеш замовити свою модель — пиши та замовляй!</div>
+    <a class="btn" href="andrew.html">Переглянути ще моделі</a>
+  </footer>
+
+</body>
+</html>
